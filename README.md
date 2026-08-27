@@ -4,6 +4,34 @@ A practical learning system for expanding a Python-centered creative automation 
 
 This repository is not a generic programming curriculum. It is a **capability ladder**: learn a language when it unlocks something useful, then prove it by building.
 
+## Start Here — The 101 Layer
+
+New to one of the languages or systems? Start with the [lvl-up 101 index](101/README.md).
+
+The 101 layer is designed to get you from orientation to a runnable mini-project quickly, then hand you into the deeper Level 0–5 tracks.
+
+```text
+Foundations 101
+      ↓
+Python 101
+      ↓
+TypeScript 101
+      ↓
+Rust 101
+      ↓
+C++ / Unreal 101
+      ↓
+GPU / Shaders 101
+      ↓
+Swift 101 (optional)
+      ↓
+Integration 101
+      ↓
+Full Tracks → Capstones
+```
+
+Fast links: [Foundations](101/foundations.md) · [Python](101/python.md) · [TypeScript](101/typescript.md) · [Rust](101/rust.md) · [C++ / Unreal](101/cpp-unreal.md) · [GPU / Shaders](101/gpu-shaders.md) · [Swift](101/swift.md) · [Integration](101/integration.md) · [101 Checklist](progress/101-checklist.md)
+
 ## Recommended Stack
 
 ```text
@@ -154,6 +182,16 @@ If there is no strong answer, do not add it yet.
 ```text
 lvl-up/
 ├── README.md
+├── 101/
+│   ├── README.md
+│   ├── foundations.md
+│   ├── python.md
+│   ├── typescript.md
+│   ├── rust.md
+│   ├── cpp-unreal.md
+│   ├── gpu-shaders.md
+│   ├── swift.md
+│   └── integration.md
 ├── tracks/
 │   ├── python-leverage.md
 │   ├── typescript.md
@@ -164,7 +202,8 @@ lvl-up/
 ├── projects/
 │   └── capstones.md
 ├── progress/
-│   └── roadmap.json
+│   ├── roadmap.json
+│   └── 101-checklist.md
 └── docs/
     ├── how-to-use-lvl-up.md
     └── superpowers/
@@ -174,4 +213,6 @@ lvl-up/
 
 ## Start Here
 
-Start with [TypeScript](tracks/typescript.md), but keep building in Python while you learn. The goal is not to replace your strongest layer. The goal is to surround it with better interfaces, faster machinery, realtime engines, and programmable graphics.
+If a layer is unfamiliar, begin with its [101 guide](101/README.md). If the fundamentals are already comfortable, start with [TypeScript](tracks/typescript.md) while continuing to build in Python.
+
+The goal is not to replace your strongest layer. The goal is to surround it with better interfaces, faster machinery, realtime engines, and programmable graphics.
