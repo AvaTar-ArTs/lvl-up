@@ -1,8 +1,14 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-08-27",
   "philosophy": "Learn languages as capability unlocks, not as disconnected syntax collections.",
   "core_language": "python",
+  "onboarding": {
+    "index": "101/README.md",
+    "foundations": "101/foundations.md",
+    "integration": "101/integration.md",
+    "checklist": "progress/101-checklist.md"
+  },
   "recommended_order": [
     "typescript",
     "rust",
@@ -20,8 +26,18 @@
   ],
   "tracks": [
     {
+      "id": "python",
+      "priority": 0,
+      "entrypoint": "101/python.md",
+      "path": "tracks/python-leverage.md",
+      "role": "orchestration-and-intelligence-layer",
+      "status": "core",
+      "outcomes": ["automation", "agents", "research", "media-pipelines", "orchestration"]
+    },
+    {
       "id": "typescript",
       "priority": 1,
+      "entrypoint": "101/typescript.md",
       "path": "tracks/typescript.md",
       "role": "product-and-interface-layer",
       "status": "next",
@@ -30,6 +46,7 @@
     {
       "id": "rust",
       "priority": 2,
+      "entrypoint": "101/rust.md",
       "path": "tracks/rust.md",
       "role": "native-systems-layer",
       "status": "queued",
@@ -38,6 +55,7 @@
     {
       "id": "cpp-unreal",
       "priority": 3,
+      "entrypoint": "101/cpp-unreal.md",
       "path": "tracks/cpp-unreal.md",
       "role": "realtime-engine-layer",
       "status": "queued",
@@ -46,6 +64,7 @@
     {
       "id": "gpu-shaders",
       "priority": 4,
+      "entrypoint": "101/gpu-shaders.md",
       "path": "tracks/gpu-shaders.md",
       "role": "gpu-visual-layer",
       "status": "queued",
@@ -54,6 +73,7 @@
     {
       "id": "swift",
       "priority": 5,
+      "entrypoint": "101/swift.md",
       "path": "tracks/swift.md",
       "role": "native-apple-product-layer",
       "status": "optional",
