@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-08-27",
+  "philosophy": "Learn languages as capability unlocks, not as disconnected syntax collections.",
+  "core_language": "python",
+  "recommended_order": [
+    "typescript",
+    "rust",
+    "cpp-unreal",
+    "gpu-shaders",
+    "swift"
+  ],
+  "levels": [
+    {"id": 0, "name": "orientation", "goal": "Understand role and toolchain"},
+    {"id": 1, "name": "syntax-with-purpose", "goal": "Learn syntax needed for a useful build"},
+    {"id": 2, "name": "native-project", "goal": "Build a standalone tool"},
+    {"id": 3, "name": "integration", "goal": "Connect to Python or another stack layer"},
+    {"id": 4, "name": "production-pattern", "goal": "Add testing, packaging, performance, observability, and failure handling"},
+    {"id": 5, "name": "capstone", "goal": "Ship a project proving the language's value"}
+  ],
+  "tracks": [
+    {
+      "id": "typescript",
+      "priority": 1,
+      "path": "tracks/typescript.md",
+      "role": "product-and-interface-layer",
+      "status": "next",
+      "outcomes": ["web-products", "dashboards", "browser-tools", "mcp-surfaces", "node-services"]
+    },
+    {
+      "id": "rust",
+      "priority": 2,
+      "path": "tracks/rust.md",
+      "role": "native-systems-layer",
+      "status": "queued",
+      "outcomes": ["native-binaries", "fast-clis", "concurrency", "file-engines", "python-extensions"]
+    },
+    {
+      "id": "cpp-unreal",
+      "priority": 3,
+      "path": "tracks/cpp-unreal.md",
+      "role": "realtime-engine-layer",
+      "status": "queued",
+      "outcomes": ["unreal", "gameplay-systems", "simulation", "engine-architecture", "realtime-performance"]
+    },
+    {
+      "id": "gpu-shaders",
+      "priority": 4,
+      "path": "tracks/gpu-shaders.md",
+      "role": "gpu-visual-layer",
+      "status": "queued",
+      "outcomes": ["glsl", "hlsl", "wgsl", "webgpu", "realtime-generative-graphics"]
+    },
+    {
+      "id": "swift",
+      "priority": 5,
+      "path": "tracks/swift.md",
+      "role": "native-apple-product-layer",
+      "status": "optional",
+      "outcomes": ["macos-apps", "ios-apps", "swiftui", "native-control-surfaces"]
+    }
+  ],
+  "capstones": [
+    {"id": "creative-workflow-control-center", "languages": ["typescript", "python"]},
+    {"id": "native-asset-intelligence-engine", "languages": ["rust", "python"]},
+    {"id": "generative-realtime-web-world", "languages": ["typescript", "wgsl"]},
+    {"id": "procedural-unreal-universe", "languages": ["cpp", "python", "hlsl"]},
+    {"id": "native-creative-operations-console", "languages": ["swift", "python", "rust"]}
+  ]
+}
